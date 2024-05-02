@@ -186,7 +186,7 @@ $ tmux
 layout: center
 ---
 
-![local image](tmux-init.png)
+![local image](/tmux-init.png)
 
 ---
 layout: full
@@ -329,7 +329,7 @@ transition: fade
 layout: center
 ---
 
-![local image](tmux-script.png)
+![local image](/tmux-script.png)
 ---
 layout: center
 ---
@@ -361,7 +361,7 @@ C-b : // enters command mode
 layout: center
 ---
 
-![local image](tmux-command-mode.png)
+![local image](/tmux-command-mode.png)
 
 ---
 layout: center
@@ -383,7 +383,12 @@ layout: center
 C-b + ; // toggle last active pane
 C-b + % // horizontal split
 C-b + " // vertical split
-C-b + { // move 
+C-b + { // move current pane left
+C-b + } // move current pane right
+C-b + o // switch to next pane
+C-b + q // show pane numbers
+C-b + ! // convert pane to a window
+C-b + 
 
 :join-pane -s 2 -t 1 // joins two windows as panes (merge window 2 to window 1 as panes)
 :join pane -s 2.1 -t 1.0 // Move pane from one window to another (move pane 1 from window 2 to pane after 0 of window 1)
@@ -401,7 +406,7 @@ transition: fade
 layout: center
 ---
 
-![local image](tmux-config.png)
+![local image](/tmux-config.png)
 
 ---
 layout: center
